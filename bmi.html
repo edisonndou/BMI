@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Project</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+    <div class="nav">
+        <img src="assets/logo.png" id="calc" alt="">
+        <br>
+        <h1><b>BODY-MASS-INDEX</b></h1>
+    </div><hr>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="hyrja"><script src="bmi.js">
+    </script>
+</div>
+<div class="section">
+    <p>Mirë se erdhët në B-M-I .</p> 
+</div>
+<div class="testi">
+    <p>Për testim klikoni butonin e mëposhtëm :</p>
+</div>
+<div class="butoni">
+    <button>Testohu </button>
+      <script>
+      document.querySelector('button').addEventListener('click',function(){
+        window.scrollTo(999,999);
+      })
+      </script>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+<div class="llogaritja">
+    <div class="calculator" id="clc">
+    <h3>KALKULUESI B-M-I</h3>
+    <p>Gjatësia në metër :</p>
+    <input class="height-input-field" type="number">
+    <p>Pesha në kilogram :</p>
+    <input class="weight-input-field" type="number"><br>
+    <button class="calculate"> Kalkuloni </button>
+</div>
+<h3 class="result"></h3>
+<p class="result-statement"></p>
+<script src="calc.js"></script>
+</div>
+<br><br><br><br><br><br><hr>
+
+
+<div class="footer">
+    <h3>Nëse jeni mbipeshë dhe dëshironi sygjerime për një dietë të shëndetshme klikoni butonin:</h3>
+    <button onClick="location.href='Fitness.html'">Fitnesi dhe Dieta</button>
+    
+</div>
+<br>
+</body>
+</html>

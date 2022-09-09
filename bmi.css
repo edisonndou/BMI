@@ -1,0 +1,276 @@
+@media(max-width:400px){
+    .nav{
+        font-size: small;
+        background-color: rgb(51, 162, 236);
+        margin: 20px;
+        display:flex;
+        justify-content: center;
+        width: auto;
+        height: 70px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 900;
+        text-transform:uppercase;
+    }
+    .hyrja{
+        color: rgb(0, 0, 0);
+        width: auto;
+        margin-top: -100px;
+        padding-bottom: 18%;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 900;
+        text-transform:uppercase;
+    }
+    body{
+        overflow-x: hidden;
+        height:auto;
+        width: auto;
+        background-image: url('1.png');
+    }
+    .section{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+        text-transform:uppercase;
+        margin-right: 40px;
+    }
+    .testi{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 900;
+        text-transform:uppercase;
+        margin-right: 35px;
+    }
+    button{
+        margin-top: 50px;
+        color: rgb(0, 0, 0);
+        background-color:rgb(51, 162, 236);
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 80px;
+    }
+    button:active{
+        background-color:rgb(51, 162, 236);
+        color: rgb(255, 255, 255);
+    }
+    .llogaritja{
+        margin-left: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 400px;
+       padding-left: 40px;
+    }
+    .llogaritja button{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width:auto;
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .footer{
+        display: flex;
+        width: auto;
+         font-size: small;
+        background-color:rgb(51, 162, 236);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 30px;
+        height:min-content;
+    }
+    .footer button{
+        margin-bottom: 50px;
+        margin-right: 5px;
+        font-size: 10px;
+        color: black;
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .footer button:active{
+        background-color: rgb(197, 118, 53);
+    }
+}
+@media(min-width:401px){
+    .nav{
+        font-size:large;
+        background-color: rgb(51, 162, 236);
+        margin: 20px;
+        display:flex;
+        justify-content: center;
+        width: auto;
+        height: 70px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 900;
+        text-transform:uppercase;
+    }
+    .hyrja{
+        text-align: center;
+        color: rgb(0, 0, 0);
+        width: auto;
+        margin-top: -100px;
+        padding-left: 30px;
+        padding-bottom: 18%;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 900;
+        text-transform:uppercase;
+    }
+    body{
+        overflow-x: hidden;
+        height:auto;
+        width: auto;
+        background-image: url('1.png');
+        background-size: cover;
+    }
+    .section{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 30px;
+        font-size: 20px;
+        font-weight: 900;
+        text-transform:uppercase;
+    }
+    .testi{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 30px;
+        font-size: 20px;
+        font-weight: 900;
+        text-transform:uppercase;
+    }
+    button{
+        color: rgb(0, 0, 0);
+        background-color:rgb(51, 162, 236);
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 240px;
+    }
+    button:active{
+        background-color:rgb(51, 162, 236);
+        color: rgb(255, 255, 255);
+    }
+    .llogaritja{
+        border-radius: 10px;
+        border: 1px solid rgb(25, 0, 255);
+        background-color: rgb(51, 162, 236);
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: auto;
+    }
+    .llogaritja button{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-right: 235px;
+        width: fit-content;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        width: auto;
+        font-size: small;
+        background-color:rgb(51, 162, 236);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 30px;
+    }
+    .footer button{
+        width: 300px;
+        margin-right: 5px;
+        font-size: 15px;
+        color: black;
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .footer button:active{
+        background-color: rgb(197, 118, 53);
+    }
+}
+@media(min-width:700px){
+    .nav{
+        background-color: rgb(51, 162, 236);
+        margin: 20px;
+        display:flex;
+        justify-content: center;
+        width: auto;
+        height: 70px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 900;
+        text-transform:uppercase;
+    }
+    .hyrja{
+        color: rgb(0, 0, 0);
+        width: auto;
+        text-align: start;
+        padding-bottom: 18%;
+        font-size: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 900;
+        text-transform:uppercase;
+    }
+    body{
+        height:1150px;
+        background-image: url('assets/bg.jpg');
+        background-size:cover; 
+    }
+    .section{
+        text-align: start;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 30px;
+        font-size: 25px;
+        font-weight: 900;
+        text-transform:uppercase;
+    }
+    .testi{
+        text-align: start;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 30px;
+        font-size: 20px;
+        font-weight: 900;
+        text-transform:uppercase;
+    }
+    button{
+        color: rgb(0, 0, 0);
+        background-color:rgb(51, 162, 236);
+        margin-left: 30px;
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    button:hover{
+        background-color: rgb(23, 97, 146);
+        color: rgb(255, 255, 255);
+    }
+    button:active{
+        background-color:rgb(51, 162, 236);
+        color: rgb(255, 255, 255);
+    }
+    .llogaritja{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 500px;
+       padding-left: 30px;
+    }
+    .llogaritja button{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 100px;
+        margin-top: 5px;
+        margin-left: 200px;
+    }
+    .footer{
+        width: auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        background-color:rgb(51, 162, 236);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 30px;
+        display: flex;
+    }
+    .footer button{
+        color: black;
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .footer button:active{
+        background-color: rgb(197, 118, 53);
+    }
+}
+
